@@ -30,7 +30,6 @@ const RenderMultiMedia = ( {fileInfo}) => {
 
     return (
     
-        
         checkImageFileType(fileInfo.fileType) ? <img src={fileInfo.src} width={"100%"} /> : 
         (checkVideoAudioFileType(fileInfo.fileType) ? <ReactPlayer width={"100%"} url={fileInfo.src} playing={false} controls={true} loop={true} /> : 
         (checkPDFFileType(fileInfo.fileType) ? 
@@ -45,21 +44,19 @@ const RenderMultiMedia = ( {fileInfo}) => {
                     /> 
                 </Document>
 
-                <Button type="default" disabled={pdfPageNumber <= 1} onClick={previousPage} >Previous</Button>
-                <Button type="default" disabled={pdfPageNumber >= pdfTotalPages} onClick={nextPage} >Next</Button>
+                <button type="button" disabled={pdfPageNumber <= 1} onClick={previousPage} >Previous</button>
+                <button type="button" disabled={pdfPageNumber >= pdfTotalPages} onClick={nextPage} >Next</button>
 
                 <span >{" \t   "} Page {pdfPageNumber} of {pdfTotalPages} </span>
     
-            </div> : [] //<div><h1>{"This is not supporting type"}</h1></div>  
+            </div> : <div><h1>{"This is not supporting type"}</h1></div>  
             ))
-        
-        
     );
 };
 
 
 RenderMultiMedia.propTypes = {
-    fileInfo = PropTypes.object.isRequired,
+    fileInfo : PropTypes.object.isRequired,
 }
 
 export default RenderMultiMedia;
