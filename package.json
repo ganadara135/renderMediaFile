@@ -1,0 +1,31 @@
+{
+  "name": "@kcod/render-media-file",
+  "version": "0.3.0",
+  "description": "This is a React component that can render multi media files on  a browser",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganadara135/renderMediaFile.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "render-media"
+  ],
+  "author": "kcod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganadara135/renderMediaFile/issues"
+  },
+  "homepage": "https://github.com/ganadara135/renderMediaFile#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-pdf": "^4.1.0",
+    "react-player": "^1.14.2"
+  }
+}
