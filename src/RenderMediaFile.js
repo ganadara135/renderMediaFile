@@ -4,7 +4,7 @@ import {checkImageFileType, checkPDFFileType, checkVideoAudioFileType } from './
 import ReactPlayer from 'react-player';
 import { Document, Page, Outline } from 'react-pdf';
 
-const RenderMultiMedia = ( {fileInfo}) => {
+function RenderMultiMedia (fileInfo) {
 
     const [pdfTotalPages, setPdfTotalPages ] = useState(null);
     const [pdfPageNumber, setPdfPageNumber ] = useState(1);
