@@ -53,13 +53,13 @@ const RenderMultiMedia = ( {fileInfo}) => {
             </div> : [] //<div><h1>{"This is not supporting type"}</h1></div>  
             ))
         } 
-        <div/>
+        </div>
     );
 };
 
 
 RenderMultiMedia.propTypes = {
-    fileInfo: PropTypes.object.isRequired,
+    fileInfo = PropTypes.object.isRequired,
 }
 
 export default RenderMultiMedia;
