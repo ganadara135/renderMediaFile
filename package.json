@@ -4,7 +4,7 @@
   "description": "This is a React component that can render multi media files on  a browser",
   "main": "none",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
