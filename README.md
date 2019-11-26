@@ -31,4 +31,4 @@ ReactDOM.render(<App />, document.getElementById('container'));
 ### Props
 |Prop name | Description| Default Value | Example Values |
 |----------|------------|---------------|----------------|
-|fileInfo  | only props on this component and this has two atrributes, <br>one is src and the other is fileType. <br>src is the remote location addresses. <br>fileType is MIME type(https://en.wikipedia.org/wiki/Media_type) | n/a | <ul><li>fileInfo={{src:`"http://example.com/sample.jpg"`, fileType:`"image/png"`}}</li><li> |
+|fileInfo  | only props on this component and this has two atrributes, <br>one is `'src'` and the other is `'fileType'`. <br>src is the remote location addresses. <br>fileType is MIME type(https://en.wikipedia.org/wiki/Media_type) | n/a | <ul><li>fileInfo={{src:`"http://example.com/sample.jpg"`, fileType:`"image/png"`}}</li><li> |
