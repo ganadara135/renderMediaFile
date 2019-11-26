@@ -14,7 +14,7 @@ Here is a quick example to get you started, it's all you need:
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RenderMediaFile, utils } from '@kcod/render-media-file/src';          // pay attention
+import RenderMediaFile from '@kcod/render-media-file';          // pay attention
  
 function App() {
     return <div><RenderMultiMedia fileInfo={{src: "https://example.com/sample.pdf", fileType: "application/pdf"}} /></div>;
