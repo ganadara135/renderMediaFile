@@ -56,7 +56,7 @@ function RenderMultiMedia (fileInfo) {
 
 
 RenderMultiMedia.propTypes = {
-    fileInfo : PropTypes.object.isRequired,
+   // fileInfo : PropTypes.object.isRequired,
 }
 
 export default RenderMultiMedia;
