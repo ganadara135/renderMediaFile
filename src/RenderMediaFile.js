@@ -29,8 +29,8 @@ const RenderMultiMedia = ( {fileInfo}) => {
     },[fileInfo.id]);
 
     return (
-        <div>
-        { 
+    
+        
         checkImageFileType(fileInfo.fileType) ? <img src={fileInfo.src} width={"100%"} /> : 
         (checkVideoAudioFileType(fileInfo.fileType) ? <ReactPlayer width={"100%"} url={fileInfo.src} playing={false} controls={true} loop={true} /> : 
         (checkPDFFileType(fileInfo.fileType) ? 
@@ -52,8 +52,8 @@ const RenderMultiMedia = ( {fileInfo}) => {
     
             </div> : [] //<div><h1>{"This is not supporting type"}</h1></div>  
             ))
-        } 
-        </div>
+        
+        
     );
 };
 
