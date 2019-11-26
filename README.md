@@ -17,11 +17,19 @@ import ReactDOM from 'react-dom';
 import RenderMediaFile from 'RenderMediaFile';
  
 function App() {
-    return <div><RenderMultiMedia fileInfo={{src: "https://i.imagesup.co/images2/4a64f008951cd66e56d4f1e0141a27df584a1e94.png", fileType: " "}} /></div>;
+    return <div><RenderMultiMedia fileInfo={{src: "https://example.com/sample.pdf", fileType: "application/pdf"}} /></div>;
 }
  
 ReactDOM.render(<App />, document.getElementById('container'));
 ```
 
-# demo result
+# Demo result
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/24896007/69593100-8a710900-103b-11ea-8f89-12feea8bec3a.gif)
+
+
+# User Guide
+### Props
+|Prop name | Description| Default Value | Example Values |
+|----------|------------|---------------|----------------|
+|fileInfo  | only props on this component and this has two atrributes, one is src and the other is fileType. <br/>
+src is the remote location addresses. fileType is MIME type(https://en.wikipedia.org/wiki/Media_type) | n/a | <ul><li>fileInfo={{src:`"http://example.com/sample.jpg"`, fileType:`"image/png"`}}</li><li> |
