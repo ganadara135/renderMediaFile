@@ -1,7 +1,7 @@
 // //module.exports = require('../src/RenderMediaFile');
 import React from 'react';
 import ReactDOM from "react-dom";
-import RenderMediaFile from "../src/RenderMediaFile";
+//import RenderMediaFile from "../src/RenderMediaFile";
 
 
 class FormContainer extends Component {
@@ -35,5 +35,6 @@ class FormContainer extends Component {
   }
   export default FormContainer;
   
-  const wrapper = document.getElementById("create-article-form");
-  wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+//   const wrapper = document.getElementById("create-article-form");
+//   wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+ReactDOM.render(<FormContainer />, document.getElementById("any"));
