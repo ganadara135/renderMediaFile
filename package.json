@@ -1,6 +1,6 @@
 {
   "name": "@kcod/render-media-file",
-  "version": "0.3.9",
+  "version": "0.3.10-0",
   "description": "This is a React component that can render multi media files on  a browser",
   "main": "index.js",
   "scripts": {
