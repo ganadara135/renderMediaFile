@@ -1,3 +1,5 @@
+# Don't use this version. This is under development. I don't test this version sufficiently. So there are bug a lot.
+
 # Supporting File Types
 pdf, mp4, mp3, jpg, jpeg, gif, png
 
