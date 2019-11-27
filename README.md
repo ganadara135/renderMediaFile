@@ -4,7 +4,7 @@
 pdf, mp4, mp3, jpg, jpeg, gif, png
 
 # Installation
-React Rainbow components is available as an npm package.
+React components is available as an npm package.
 
 ```bash
 $ npm i @kcod/render-media-file
