@@ -1,21 +1,11 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");       // index.html   자동생성, 첫 로딩 페이지
 const { StatsWriterPlugin } = require("webpack-stats-plugin");    // 오류 통계 작성 
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');   // Output 폴더 자동으로 지워줌
-
-//const pkg = require('./package.json');
-// const {
-//   override,
-//   addWebpackAlias,
-// } = require("customize-cra");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
 var path = require('path');
 
-// module.exports = override(
-//   addWebpackAlias({
-//     react: path.resolve('./node_modules/react')
-//   })
-// )
 module.exports = {
   mode: 'production',
   devtool: 'inline-source-map',
@@ -52,37 +42,25 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        //include: path.resolve(__dirname, 'src'),
-        use: {
-          loader: "babel-loader",
-          // options : {
-          //   presets : [
-          //     '@babel/preset-env',
-          //     "@babel/preset-react"
-          //   ],
-          //   plugins : ['@babel/plugin-proposal-object-rest-spread'],
-          // },
-        }
+        test: /\.less$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'less-loader',
+        ],
       },
       {
-        test: /\.html$/,
+        test: /\.css$/,
         use: [
-          {
-            loader: "html-loader",
-            options: { minimize: true },
-          }
-        ]
+          'style-loader',
+          'css-loader',
+        ],
       },
-      // {
-      //   test: "file?name=[name].[ext]",
-      //   use: [
-      //     {
-      //       loader: "file-loader",
-      //     }
-      //   ]
-      // }
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: 'babel-loader',
+      },
     ],
     
   },
@@ -128,6 +106,12 @@ module.exports = {
       title: '오류페이지 자동생성',
       fields: ["assets", "modules"],
     }),
+    new CopyWebpackPlugin([
+      // { from: './index.html' },
+      // { from: './sample.pdf' },
+      { from: 'node_modules/pdfjs-dist/cmaps/', to: 'cmaps/' },
+    ]),
+
 
   
     // new HtmlWebPackPlugin({

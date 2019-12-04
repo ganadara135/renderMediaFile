@@ -2,8 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {checkImageFileType, checkPDFFileType, checkVideoAudioFileType } from './utils';
 import ReactPlayer from 'react-player';
-import { Document, Page, Outline } from 'react-pdf';
-//import {Button} from 'antd';
+import { Document, Page, Outline } from 'react-pdf/dist/entry.webpack';
+// import { pdfjs } from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 class RenderMultiMediaClass  extends React.Component { // }= ( {fileInfo}) => {
 

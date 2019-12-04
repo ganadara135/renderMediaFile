@@ -1,8 +1,30 @@
 {
   "assets": [
     {
+      "name": "1.index.js",
+      "size": 4411751,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendors~pdfjsWorker"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "f6510ba63fd9dce84f03.worker.js",
+      "size": 4580229,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "index.js",
-      "size": 7633,
+      "size": 3125774,
       "chunks": [
         0
       ],
@@ -16,11 +38,452 @@
   "modules": [
     {
       "id": 0,
-      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/test/index.js",
-      "name": "./test/index.js",
-      "index": 0,
+      "identifier": "external \"react\"",
+      "name": "external \"react\"",
+      "index": 1,
       "index2": 0,
-      "size": 191,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+      "issuerId": null,
+      "issuerName": "./src/RenderMediaFileClass.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "index": 27,
+      "index2": 25,
+      "size": 147,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+      "issuerId": 33,
+      "issuerName": "./node_modules/react-pdf/dist/entry.webpack.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 33,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+          "name": "./node_modules/react-pdf/dist/entry.webpack.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 2,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "index": 2,
+      "index2": 3,
+      "size": 710,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+      "issuerId": null,
+      "issuerName": "./src/RenderMediaFileClass.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/utils.js",
+      "name": "./node_modules/react-player/lib/utils.js",
+      "index": 8,
+      "index2": 8,
+      "size": 9136,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 12,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/shared/utils.js",
+      "name": "./node_modules/react-pdf/dist/shared/utils.js",
+      "index": 72,
+      "index2": 72,
+      "size": 9306,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+      "issuerId": 33,
+      "issuerName": "./node_modules/react-pdf/dist/entry.webpack.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 33,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+          "name": "./node_modules/react-pdf/dist/entry.webpack.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 20,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/props.js",
+      "name": "./node_modules/react-player/lib/props.js",
+      "index": 7,
+      "index2": 5,
+      "size": 4530,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 21,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/pdfjs-dist/build/pdf.js",
+      "name": "./node_modules/pdfjs-dist/build/pdf.js",
+      "index": 28,
+      "index2": 43,
+      "size": 697827,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+      "issuerId": 33,
+      "issuerName": "./node_modules/react-pdf/dist/entry.webpack.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 33,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+          "name": "./node_modules/react-pdf/dist/entry.webpack.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 25,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "index": 12,
+      "index2": 11,
+      "size": 12214,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 26,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/Player.js",
+      "name": "./node_modules/react-player/lib/Player.js",
+      "index": 14,
+      "index2": 9,
+      "size": 14007,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 27,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "index": 15,
+      "index2": 12,
+      "size": 9001,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 28,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "index": 16,
+      "index2": 13,
+      "size": 9736,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 29,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "index": 21,
+      "index2": 18,
+      "size": 10107,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "issuerId": 45,
+      "issuerName": "./node_modules/react-player/lib/ReactPlayer.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        },
+        {
+          "id": 45,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+          "name": "./node_modules/react-player/lib/ReactPlayer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 33,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-pdf/dist/entry.webpack.js",
+      "name": "./node_modules/react-pdf/dist/entry.webpack.js",
+      "index": 26,
+      "index2": 96,
+      "size": 1507,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+      "issuerId": null,
+      "issuerName": "./src/RenderMediaFileClass.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 45,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/react-player/lib/ReactPlayer.js",
+      "name": "./node_modules/react-player/lib/ReactPlayer.js",
+      "index": 6,
+      "index2": 24,
+      "size": 14681,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+      "issuerId": null,
+      "issuerName": "./src/RenderMediaFileClass.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 96,
+      "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js c9f075c9ee0a947f5edc512196d9a5e3",
+      "name": "./src/RenderMediaFileClass.js + 1 modules",
+      "index": 0,
+      "index2": 97,
+      "size": 8008,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -34,7 +497,56 @@
       "issuerPath": null,
       "failed": false,
       "errors": 0,
-      "warnings": 0
+      "warnings": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "name": "./src/RenderMediaFileClass.js",
+          "index": 0,
+          "index2": 97,
+          "size": 6321,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "id": null,
+          "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/utils.js",
+          "name": "./src/utils.js",
+          "index": 5,
+          "index2": 4,
+          "size": 1667,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+          "issuerId": null,
+          "issuerName": "./src/RenderMediaFileClass.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/mac/work/npmPublish/renderMediaFile/node_modules/babel-loader/lib/index.js!/Users/mac/work/npmPublish/renderMediaFile/src/RenderMediaFileClass.js",
+              "name": "./src/RenderMediaFileClass.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0
+        }
+      ],
+      "filteredModules": 0
     }
   ]
 }
