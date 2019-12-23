@@ -28,6 +28,7 @@ class App extends React.Component {
         fileInfo={{
           src:"https://user-images.com/sample.gif", 
           fileType:"image/gif"}} />
+          // if you want to test pdf file, you can see CORS policy. So install Chrome extention program such 'Allow CORS'
           //src:"http://www.orimi.com/pdf-test.pdf",
           //src:"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf", 
           //fileType:"application/pdf"}} />

@@ -2,9 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {checkImageFileType, checkPDFFileType, checkVideoAudioFileType } from './utils';
 import ReactPlayer from 'react-player';
-import { Document, Page, Outline } from 'react-pdf/dist/entry.webpack';
-// import { pdfjs } from 'react-pdf';
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import { Document, Page, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 class RenderMultiMediaClass  extends React.Component { // }= ( {fileInfo}) => {
@@ -56,6 +55,7 @@ class RenderMultiMediaClass  extends React.Component { // }= ( {fileInfo}) => {
                 <Document
                     file={fileInfo.src}
                     onLoadSuccess={this.onPDFDocumentLoadSuccess}
+                    onLoadError={console.error} 
                 >
                     <Page 
                     pageNumber={this.state.pdfPageNumber || 1} 

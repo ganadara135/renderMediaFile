@@ -6,7 +6,7 @@
   "module": "dist/index",
   "typings": "dist/index",
   "scripts": {
-    "test": "webpack test/index.js",
+    "test": "node test/index.js",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack",
     "watch": "webpakc --watch"
